@@ -1,10 +1,11 @@
+
 # SauceDemo UI Testing with Selenium
 
 ## Project Overview
 
 This project demonstrates automated user interface testing of the [SauceDemo](https://www.saucedemo.com/) e-commerce website using Python, Selenium WebDriver, and Pytest.
 
-The project was developed as part of a UI testing assignment at LAB University of Applied Sciences.
+Developed as part of a UI testing assignment at LAB University of Applied Sciences.
 
 ## Technologies Used
 
@@ -13,47 +14,47 @@ The project was developed as part of a UI testing assignment at LAB University o
 - Pytest
 - Google Chrome
 - Visual Studio Code
-- Chrome DevTools (for manual performance testing)
+- Chrome DevTools
 
 ## Automated Test Cases
 
-**Test 1 — Login Verification**
+### Test 1 - Login Verification
 
-Logs in using the standard SauceDemo test credentials and verifies successful navigation to the inventory page.
+Logs in using standard SauceDemo credentials and verifies successful navigation to the inventory page.
 
-**Test 2 — Shopping Cart Verification**
+### Test 2 - Shopping Cart Verification
 
-Adds the Sauce Labs Backpack and Sauce Labs Bike Light to the shopping cart, verifies the cart badge displays two items, and checks that both products appear in the cart.
+Adds the Sauce Labs Backpack and Sauce Labs Bike Light to the shopping cart, verifies the cart badge displays two items, and confirms both products appear in the cart.
 
-**Test 3 — Complete Checkout Process**
+### Test 3 - Complete Checkout Process
 
-Logs in, adds two products to the cart, enters fictional customer information, verifies the order total of $43.18, completes checkout, and checks the order confirmation message.
+Logs in, adds two products, enters fictional customer information, verifies the total price of $43.18, completes checkout, and checks the order confirmation message.
 
 ## Installation
 
 1. Clone the repository:
 
-   `git clone https://github.com/YOUR_USERNAME/saucedemo-selenium-ui-testing.git`
+   git clone https://github.com/YOUR_USERNAME/saucedemo-selenium-ui-testing.git
 
 2. Open the project folder.
 
-3. Create a Python virtual environment:
+3. Create a virtual environment:
 
-   `python -m venv .venv`
+   python -m venv .venv
 
 4. Activate the virtual environment on Windows:
 
-   `.venv\Scripts\activate`
+   .venv\Scripts\activate
 
-5. Install the required packages:
+5. Install dependencies:
 
-   `pip install -r requirements.txt`
+   pip install -r requirements.txt
 
 ## Running the Tests
 
-Execute the following command:
+Run the following command:
 
-`python -m pytest -s test_saucedemo.py`
+   python -m pytest -s test_saucedemo.py
 
 ## Test Results
 
@@ -61,7 +62,7 @@ All three automated tests passed successfully during development.
 
 ## Manual Performance Testing
 
-Chrome DevTools was also used to investigate mobile responsiveness, network performance, CPU throttling, loading times, and the checkout experience.
+Chrome DevTools was used to investigate mobile responsiveness, network performance, CPU throttling, loading times, and checkout functionality.
 
 ## Author
 
